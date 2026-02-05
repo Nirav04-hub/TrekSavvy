@@ -1,0 +1,334 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+/* ========== AUTH (LOGIN) UI ========== */
+.auth-wrap {
+    min-height: calc(100vh - 140px);
+    display: grid;
+    place-items: center;
+    padding: 24px 0;
+}
+
+.auth-card {
+    width: 520px;
+    max-width: 92vw;
+    background: #fff;
+    border: 1px solid rgba(15,23,42,.08);
+    border-radius: 16px;
+    box-shadow: 0 14px 40px rgba(2,8,23,.10);
+    padding: 34px 34px 26px;
+}
+
+.auth-brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 14px;
+}
+
+.auth-logo {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+    background: rgba(2,6,23,.04);
+    display: grid;
+    place-items: center;
+}
+
+.auth-name {
+    font-weight: 700;
+    letter-spacing: .2px;
+}
+
+.auth-title {
+    text-align: center;
+    font-size: 34px;
+    margin: 12px 0 6px;
+    font-weight: 700;
+}
+
+.auth-subtitle {
+    text-align: center;
+    margin: 0 0 22px;
+    color: #6b7280;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.field-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.field-input {
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid rgba(15,23,42,.10);
+    background: rgba(2,6,23,.03);
+    padding: 0 14px;
+    outline: none;
+}
+
+    .field-input:focus {
+        border-color: rgba(2,6,23,.22);
+        background: rgba(2,6,23,.02);
+    }
+
+.btn-dark {
+    margin-top: 4px;
+    height: 46px;
+    border: 0;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #0b1020, #020617);
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+    .btn-dark:hover {
+        opacity: .95;
+    }
+
+.btn-icon {
+    font-weight: 900;
+}
+
+.tip-box {
+    background: rgba(2,6,23,.04);
+    border: 1px solid rgba(15,23,42,.08);
+    border-radius: 12px;
+    padding: 12px 12px;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    color: #374151;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.tip-icon {
+    margin-top: 1px;
+}
+
+.auth-footer {
+    text-align: center;
+    margin-top: 8px;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.auth-link {
+    font-weight: 700;
+    color: #111827;
+    text-decoration: none;
+    margin-left: 6px;
+}
+
+    .auth-link:hover {
+        text-decoration: underline;
+    }
+
+
+/* ========== PLAN TRIP UI ========== */
+.page-head {
+    margin: 10px 0 18px;
+}
+
+.page-title {
+    font-size: 44px;
+    margin: 0;
+    font-weight: 800;
+    letter-spacing: -0.6px;
+}
+
+.page-subtitle {
+    margin: 6px 0 0;
+    color: #6b7280;
+    font-size: 15px;
+}
+
+.plan-card {
+    background: #fff;
+    border: 1px solid rgba(15,23,42,.08);
+    border-radius: 18px;
+    box-shadow: 0 14px 40px rgba(2,8,23,.10);
+    padding: 26px;
+    max-width: 920px;
+}
+
+.plan-form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.form-block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.field-label {
+    font-size: 13px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.input {
+    height: 44px;
+    border-radius: 10px;
+    border: 1px solid rgba(15,23,42,.10);
+    background: rgba(2,6,23,.03);
+    padding: 0 14px;
+    outline: none;
+}
+
+    .input:focus {
+        border-color: rgba(2,6,23,.22);
+        background: rgba(2,6,23,.02);
+    }
+
+.input-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(15,23,42,.10);
+    background: #fff;
+    padding: 0 14px;
+    height: 44px;
+}
+
+    .input-row .input {
+        border: 0;
+        background: transparent;
+        padding: 0;
+        height: 40px;
+        width: 100%;
+    }
+
+.input-icon {
+    opacity: .75;
+}
+
+.budget-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.range {
+    width: 100%;
+    accent-color: #0b1020;
+}
+
+.chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.chip {
+    border: 1px solid rgba(15,23,42,.10);
+    background: #fff;
+    border-radius: 999px;
+    padding: 7px 12px;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+    .chip.is-active {
+        background: rgba(2,6,23,.08);
+        border-color: rgba(2,6,23,.18);
+    }
+
+.traveler-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.qty-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    border: 1px solid rgba(15,23,42,.10);
+    background: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+    .qty-btn:hover {
+        background: rgba(2,6,23,.03);
+    }
+
+.traveler-mid {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+    justify-content: center;
+    color: #111827;
+    font-weight: 700;
+}
+
+.traveler-icon {
+    opacity: .75;
+}
+
+.traveler-count {
+    font-size: 16px;
+}
+
+.btn-wide {
+    width: 100%;
+    height: 52px;
+    border-radius: 14px;
+}
+
+.form-footnote {
+    text-align: center;
+    color: #6b7280;
+    font-size: 13px;
+    margin-top: -6px;
+}

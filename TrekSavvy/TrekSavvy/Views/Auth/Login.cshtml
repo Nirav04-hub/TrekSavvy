@@ -1,0 +1,42 @@
+﻿@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="auth-wrap">
+    <div class="auth-card">
+        <div class="auth-brand">
+            <div class="auth-logo">✈️</div>
+            <div class="auth-name">TrekSavvy</div>
+        </div>
+
+        <h1 class="auth-title">Welcome Back</h1>
+        <p class="auth-subtitle">Login to your account</p>
+
+        <form class="auth-form" method="post" action="#">
+            <label class="field">
+                <span class="field-label">Email</span>
+                <input class="field-input" type="email" placeholder="Enter Email ID" />
+            </label>
+
+            <label class="field">
+                <span class="field-label">Password</span>
+                <input class="field-input" type="password" placeholder="Enter Password" />
+            </label>
+
+            <button type="submit" class="btn-dark">
+                <span class="btn-icon">→</span> Login
+            </button>
+
+            <div class="tip-box">
+                <span class="tip-icon">💡</span>
+                <span class="tip-text">Tip: Use an email containing “admin” to access the Admin Dashboard</span>
+            </div>
+
+            <div class="auth-footer">
+                <span>Don't have an account?</span>
+                <a href="#" class="auth-link">Sign Up</a>
+            </div>
+        </form>
+    </div>
+</div>

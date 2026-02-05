@@ -1,0 +1,100 @@
+﻿@{
+    ViewData["Title"] = "Plan Trip";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="page-head">
+    <h1 class="page-title">Plan Your Trip</h1>
+    <p class="page-subtitle">Tell us about your dream vacation</p>
+</div>
+
+<div class="plan-card">
+    <form class="plan-form" method="post" action="#">
+        <!-- Destination -->
+        <div class="form-block">
+            <label class="field-label">Destination</label>
+            <input class="input" type="text" placeholder="Enter destination" />
+        </div>
+
+        <!-- Travel Dates -->
+        <div class="form-block">
+            <label class="field-label">Travel Dates</label>
+            <div class="input-row">
+                <span class="input-icon">📅</span>
+                <input class="input input-date" type="text" placeholder="Choose travel dates" />
+            </div>
+        </div>
+
+        <!-- Budget Slider -->
+        <div class="form-block">
+            <div class="budget-row">
+                <label class="field-label">Budget: $<span id="budgetValue">5000</span></label>
+            </div>
+            <input id="budgetRange" class="range" type="range" min="500" max="10000" step="100" value="5000" />
+        </div>
+
+        <!-- Interests -->
+        <div class="form-block">
+            <label class="field-label">Interests</label>
+            <div class="chips">
+                <button type="button" class="chip">Adventure</button>
+                <button type="button" class="chip">Culture</button>
+                <button type="button" class="chip">Food</button>
+                <button type="button" class="chip">Relaxation</button>
+                <button type="button" class="chip">Nature</button>
+                <button type="button" class="chip">Shopping</button>
+                <button type="button" class="chip">History</button>
+                <button type="button" class="chip">Beach</button>
+            </div>
+        </div>
+
+        <!-- Travelers -->
+        <div class="form-block">
+            <label class="field-label">Number of Travelers</label>
+
+            <div class="traveler-row">
+                <button type="button" class="qty-btn" id="minusBtn">−</button>
+
+                <div class="traveler-mid">
+                    <span class="traveler-icon">👤</span>
+                    <span class="traveler-count" id="travelerCount">1</span>
+                </div>
+
+                <button type="button" class="qty-btn" id="plusBtn">+</button>
+            </div>
+        </div>
+
+        <!-- CTA -->
+        <button type="submit" class="btn-dark btn-wide">
+            <span class="btn-icon">→</span> Generate AI Itinerary
+        </button>
+
+        <div class="form-footnote">AI will use your inputs to create plan.</div>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        // Budget slider live value
+        const budgetRange = document.getElementById('budgetRange');
+        const budgetValue = document.getElementById('budgetValue');
+        budgetRange.addEventListener('input', () => budgetValue.textContent = budgetRange.value);
+
+        // Travelers +/-
+        let count = 1;
+        const countEl = document.getElementById('travelerCount');
+        document.getElementById('plusBtn').addEventListener('click', () => {
+            count++;
+            countEl.textContent = count;
+        });
+        document.getElementById('minusBtn').addEventListener('click', () => {
+            if (count > 1) count--;
+            countEl.textContent = count;
+        });
+
+        // Chip toggle
+        document.querySelectorAll('.chip').forEach(chip => {
+            chip.addEventListener('click', () => chip.classList.toggle('is-active'));
+        });
+    </script>
+}
