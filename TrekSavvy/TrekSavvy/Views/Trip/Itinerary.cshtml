@@ -1,5 +1,206 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿
 @{
+    ViewData["Title"] = "AI Itinerary";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="itn-head">
+    <div>
+        <h1 class="page-title">AI-Generated Itinerary</h1>
+        <p class="page-subtitle">Your personalized trip plan is ready</p>
+    </div>
+    <div class="itn-actions-top">
+        <a class="btn-outline" href="/Trip/Plan">← Back</a>
+        <a class="btn-outline" href="/Trip/Map">View on Map</a>
+    </div>
+</div>
+
+<div class="itn-grid">
+    <!-- LEFT: itinerary -->
+    <div class="itn-left">
+        <div class="day-tabs">
+            <button type="button" class="day-tab is-active" data-day="1">Day 1</button>
+            <button type="button" class="day-tab" data-day="2">Day 2</button>
+            <button type="button" class="day-tab" data-day="3">Day 3</button>
+        </div>
+
+        <!-- Day 1 -->
+        <div class="day-panel is-active" id="day-1">
+            <div class="day-card">
+                <div class="day-card-top">
+                    <h3>Day 1 – Downtown Highlights</h3>
+                    <span class="pill">Estimated: $350</span>
+                </div>
+
+                <div class="slot">
+                    <div class="slot-time">Morning</div>
+                    <div class="slot-body">
+                        <div class="slot-title">CN Tower Visit</div>
+                        <div class="slot-sub">CN Tower • Ticket + elevator access</div>
+                    </div>
+                    <div class="slot-cost">$55</div>
+                </div>
+
+                <div class="slot">
+                    <div class="slot-time">Afternoon</div>
+                    <div class="slot-body">
+                        <div class="slot-title">Harbourfront Walk</div>
+                        <div class="slot-sub">Harbourfront Centre • Lakeside views</div>
+                    </div>
+                    <div class="slot-cost">$20</div>
+                </div>
+
+                <div class="slot">
+                    <div class="slot-time">Evening</div>
+                    <div class="slot-body">
+                        <div class="slot-title">Dinner + City Stroll</div>
+                        <div class="slot-sub">Entertainment District • Local restaurant</div>
+                    </div>
+                    <div class="slot-cost">$60</div>
+                </div>
+            </div>
+
+            <div class="day-card">
+                <div class="day-card-top">
+                    <h3>Travel Tips</h3>
+                    <span class="pill soft">Dynamic</span>
+                </div>
+                <ul class="tip-list">
+                    <li>Book CN Tower slot online to avoid waiting.</li>
+                    <li>Keep 10–15% budget buffer for transit & snacks.</li>
+                    <li>Carry a light jacket for waterfront evenings.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Day 2 -->
+        <div class="day-panel" id="day-2">
+            <div class="day-card">
+                <div class="day-card-top">
+                    <h3>Day 2 – Culture & Museums</h3>
+                    <span class="pill">Estimated: $320</span>
+                </div>
+
+                <div class="slot">
+                    <div class="slot-time">Morning</div>
+                    <div class="slot-body">
+                        <div class="slot-title">Royal Ontario Museum</div>
+                        <div class="slot-sub">ROM • Exhibits + special gallery</div>
+                    </div>
+                    <div class="slot-cost">$35</div>
+                </div>
+
+                <div class="slot">
+                    <div class="slot-time">Afternoon</div>
+                    <div class="slot-body">
+                        <div class="slot-title">Kensington Market</div>
+                        <div class="slot-sub">Food + street shopping</div>
+                    </div>
+                    <div class="slot-cost">$40</div>
+                </div>
+
+                <div class="slot">
+                    <div class="slot-time">Evening</div>
+                    <div class="slot-body">
+                        <div class="slot-title">Distillery District</div>
+                        <div class="slot-sub">Historic area • cafés + lights</div>
+                    </div>
+                    <div class="slot-cost">$50</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Day 3 -->
+        <div class="day-panel" id="day-3">
+            <div class="day-card">
+                <div class="day-card-top">
+                    <h3>Day 3 – Nature & Relaxation</h3>
+                    <span class="pill">Estimated: $280</span>
+                </div>
+
+                <div class="slot">
+                    <div class="slot-time">Morning</div>
+                    <div class="slot-body">
+                        <div class="slot-title">Toronto Islands Ferry</div>
+                        <div class="slot-sub">Ferry ride + beach walk</div>
+                    </div>
+                    <div class="slot-cost">$20</div>
+                </div>
+
+                <div class="slot">
+                    <div class="slot-time">Afternoon</div>
+                    <div class="slot-body">
+                        <div class="slot-title">Picnic + Bike Rental</div>
+                        <div class="slot-sub">Island loop • easy ride</div>
+                    </div>
+                    <div class="slot-cost">$45</div>
+                </div>
+
+                <div class="slot">
+                    <div class="slot-time">Evening</div>
+                    <div class="slot-body">
+                        <div class="slot-title">Sunset Viewpoint</div>
+                        <div class="slot-sub">Relax + photos</div>
+                    </div>
+                    <div class="slot-cost">$0</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="itn-actions-bottom">
+            <button class="btn-outline" type="button">Modify Day Plan</button>
+            <button class="btn-outline" type="button">Refresh AI Plan</button>
+            <button class="btn-dark btn-wide" type="button">Save Itinerary</button>
+        </div>
+    </div>
+
+    <!-- RIGHT: budget summary -->
+    <aside class="itn-right">
+        <div class="budget-card">
+            <h3 class="budget-title">Budget Summary</h3>
+
+            <div class="budget-line">
+                <span>Total Budget</span>
+                <strong>$1200</strong>
+            </div>
+            <div class="budget-line">
+                <span>Estimated Spend</span>
+                <strong>$950</strong>
+            </div>
+            <div class="budget-line">
+                <span>Remaining</span>
+                <strong class="good">$250</strong>
+            </div>
+
+            <div class="budget-bar">
+                <div class="budget-fill" style="width:79%"></div>
+            </div>
+
+            <div class="budget-note">
+                Staying under budget ✅
+            </div>
+        </div>
+
+        <div class="mini-card">
+            <h3 class="mini-title">Quick Actions</h3>
+            <a class="mini-link" href="/Assistant/Index">Ask AI Assistant →</a>
+            <a class="mini-link" href="/Trip/Map">Open Route Map →</a>
+        </div>
+    </aside>
+</div>
+
+@section Scripts {
+    <script>
+        // Day tabs switch
+        document.querySelectorAll('.day-tab').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.day-tab').forEach(b => b.classList.remove('is-active'));
+                document.querySelectorAll('.day-panel').forEach(p => p.classList.remove('is-active'));
+
+                btn.classList.add('is-active');
+                const day = btn.getAttribute('data-day');
+                document.getElementById(`day-${day}`).classList.add('is-active');
+            });
+        });
+    </script>
 }

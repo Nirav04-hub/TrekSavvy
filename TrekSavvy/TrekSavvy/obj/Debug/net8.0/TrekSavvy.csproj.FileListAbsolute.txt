@@ -32,3 +32,4 @@ C:\Users\aryan\OneDrive\Desktop\TrekSavvy\TrekSavvy\TrekSavvy\obj\Debug\net8.0\r
 C:\Users\aryan\OneDrive\Desktop\TrekSavvy\TrekSavvy\TrekSavvy\obj\Debug\net8.0\TrekSavvy.pdb
 C:\Users\aryan\OneDrive\Desktop\TrekSavvy\TrekSavvy\TrekSavvy\obj\Debug\net8.0\TrekSavvy.genruntimeconfig.cache
 C:\Users\aryan\OneDrive\Desktop\TrekSavvy\TrekSavvy\TrekSavvy\obj\Debug\net8.0\ref\TrekSavvy.dll
+C:\Users\aryan\OneDrive\Desktop\TrekSavvy\TrekSavvy\TrekSavvy\obj\Debug\net8.0\TrekSavvy.sourcelink.json

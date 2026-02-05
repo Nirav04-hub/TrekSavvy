@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TrekSavvy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6dff5b26cb7919a48efafdcc36349177637ffda5")]
 [assembly: System.Reflection.AssemblyProductAttribute("TrekSavvy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TrekSavvy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

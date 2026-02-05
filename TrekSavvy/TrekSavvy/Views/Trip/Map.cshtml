@@ -1,5 +1,98 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Route Map";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="map-head">
+    <div>
+        <h1 class="page-title">Route Map View</h1>
+        <p class="page-subtitle">Visualize your trip route and travel time</p>
+    </div>
+    <div class="map-actions">
+        <a class="btn-outline" href="/Trip/Itinerary">← Back to Itinerary</a>
+        <button class="btn-outline" type="button" id="optBtn">Optimize Route</button>
+    </div>
+</div>
+
+<div class="map-grid">
+    <!-- LEFT: Map placeholder -->
+    <div class="map-panel">
+        <div class="map-canvas">
+            <div class="map-badge">Interactive Map</div>
+
+            <!-- fake pins -->
+            <div class="pin pin-a">A</div>
+            <div class="pin pin-b">B</div>
+            <div class="pin pin-c">C</div>
+
+            <!-- fake dotted route -->
+            <div class="route-line"></div>
+        </div>
+    </div>
+
+    <!-- RIGHT: Route details -->
+    <aside class="route-panel">
+        <div class="route-card">
+            <h3 class="route-title">Route Details</h3>
+
+            <div class="route-metric">
+                <span>Total Distance</span>
+                <strong>12.4 km</strong>
+            </div>
+            <div class="route-metric">
+                <span>Estimated Travel Time</span>
+                <strong>45 mins</strong>
+            </div>
+            <div class="route-metric">
+                <span>Stops</span>
+                <strong>3</strong>
+            </div>
+
+            <div class="route-list">
+                <div class="stop">
+                    <div class="stop-dot">A</div>
+                    <div class="stop-body">
+                        <div class="stop-title">CN Tower</div>
+                        <div class="stop-sub">Start point</div>
+                    </div>
+                </div>
+
+                <div class="stop">
+                    <div class="stop-dot">B</div>
+                    <div class="stop-body">
+                        <div class="stop-title">Harbourfront Centre</div>
+                        <div class="stop-sub">10 mins • 3.2 km</div>
+                    </div>
+                </div>
+
+                <div class="stop">
+                    <div class="stop-dot">C</div>
+                    <div class="stop-body">
+                        <div class="stop-title">Dinner District</div>
+                        <div class="stop-sub">12 mins • 4.1 km</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="route-note" id="optNote">
+                Tip: Optimize to reduce travel time between stops.
+            </div>
+        </div>
+
+        <div class="mini-card">
+            <h3 class="mini-title">Quick Actions</h3>
+            <a class="mini-link" href="/Assistant/Index">Ask AI Assistant →</a>
+            <a class="mini-link" href="/Trip/Plan">Plan Another Trip →</a>
+        </div>
+    </aside>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById('optBtn').addEventListener('click', () => {
+            const note = document.getElementById('optNote');
+            note.textContent = "Route optimized ✅ Shorter travel time applied.";
+            note.classList.add('route-note-good');
+        });
+    </script>
 }
