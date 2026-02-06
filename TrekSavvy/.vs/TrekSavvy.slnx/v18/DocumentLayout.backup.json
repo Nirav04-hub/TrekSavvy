@@ -62,9 +62,9 @@
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "TrekSavvy\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\wwwroot\\css\\site.css*",
-              "RelativeToolTip": "TrekSavvy\\wwwroot\\css\\site.css*",
-              "ViewState": "AgIAAEoDAAAAAAAAAAAgwGsDAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "TrekSavvy\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAD8DAAAAAAAAAAAAwGsDAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2026-02-05T18:59:19.514Z",
               "IsPinned": true,
@@ -84,8 +84,7 @@
               "RelativeToolTip": "TrekSavvy\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABwAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T18:51:35.595Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T18:51:35.595Z"
             },
             {
               "$type": "Document",
@@ -105,12 +104,11 @@
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Views\\Assistant\\Index.cshtml",
               "RelativeDocumentMoniker": "TrekSavvy\\Views\\Assistant\\Index.cshtml",
-              "ToolTip": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Views\\Assistant\\Index.cshtml*",
-              "RelativeToolTip": "TrekSavvy\\Views\\Assistant\\Index.cshtml*",
+              "ToolTip": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Views\\Assistant\\Index.cshtml",
+              "RelativeToolTip": "TrekSavvy\\Views\\Assistant\\Index.cshtml",
               "ViewState": "AgIAADMAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T18:49:55.227Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T18:49:55.227Z"
             },
             {
               "$type": "Document",
@@ -122,8 +120,7 @@
               "RelativeToolTip": "TrekSavvy\\Views\\Trip\\Map.cshtml",
               "ViewState": "AgIAAEMAAAAAAAAAAAAAAGEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T18:49:02.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T18:49:02.56Z"
             },
             {
               "$type": "Document",
@@ -135,8 +132,7 @@
               "RelativeToolTip": "TrekSavvy\\Views\\Trip\\Itinerary.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T18:48:53.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T18:48:53.518Z"
             },
             {
               "$type": "Document",
@@ -148,8 +144,7 @@
               "RelativeToolTip": "TrekSavvy\\Views\\Trip\\Plan.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T18:48:28.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-05T18:48:28.871Z"
             },
             {
               "$type": "Document",
