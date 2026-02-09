@@ -3,16 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\views\\assistant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\views\\assistant\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\views\\trip\\itinerary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\views\\trip\\itinerary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\controllers\\assistantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\controllers\\assistantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\controllers\\tripcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\controllers\\tripcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\views\\trip\\plan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -23,28 +51,8 @@
       "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\views\\trip\\map.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\views\\trip\\itinerary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\views\\trip\\itinerary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\controllers\\assistantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\controllers\\assistantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\controllers\\tripcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\controllers\\tripcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|c:\\users\\aryan\\onedrive\\desktop\\treksavvy\\treksavvy\\treksavvy\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFFC81C1-75E9-05B4-C2C8-C5E472AC543C}|TrekSavvy\\TrekSavvy.csproj|solutionrelative:treksavvy\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "TrekSavvy\\wwwroot\\css\\site.css",
@@ -71,12 +79,38 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "TrekSavvy\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "TrekSavvy\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-06T16:25:17.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "TrekSavvy\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "TrekSavvy\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T16:22:59.489Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "TrekSavvy\\Views\\Shared\\_Layout.cshtml",
@@ -84,11 +118,12 @@
               "RelativeToolTip": "TrekSavvy\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAABwAAAAAAAAAAAAAACQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T18:51:35.595Z"
+              "WhenOpened": "2026-02-05T18:51:35.595Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Program.cs",
               "RelativeDocumentMoniker": "TrekSavvy\\Program.cs",
@@ -100,19 +135,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Views\\Assistant\\Index.cshtml",
               "RelativeDocumentMoniker": "TrekSavvy\\Views\\Assistant\\Index.cshtml",
               "ToolTip": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Views\\Assistant\\Index.cshtml",
               "RelativeToolTip": "TrekSavvy\\Views\\Assistant\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAFIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T18:49:55.227Z"
+              "WhenOpened": "2026-02-05T18:49:55.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "Map.cshtml",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Views\\Trip\\Map.cshtml",
               "RelativeDocumentMoniker": "TrekSavvy\\Views\\Trip\\Map.cshtml",
@@ -124,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Itinerary.cshtml",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Views\\Trip\\Itinerary.cshtml",
               "RelativeDocumentMoniker": "TrekSavvy\\Views\\Trip\\Itinerary.cshtml",
@@ -132,11 +168,12 @@
               "RelativeToolTip": "TrekSavvy\\Views\\Trip\\Itinerary.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T18:48:53.518Z"
+              "WhenOpened": "2026-02-05T18:48:53.518Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Plan.cshtml",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Views\\Trip\\Plan.cshtml",
               "RelativeDocumentMoniker": "TrekSavvy\\Views\\Trip\\Plan.cshtml",
@@ -148,7 +185,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Views\\Auth\\Login.cshtml",
               "RelativeDocumentMoniker": "TrekSavvy\\Views\\Auth\\Login.cshtml",
@@ -156,11 +193,12 @@
               "RelativeToolTip": "TrekSavvy\\Views\\Auth\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-05T18:44:54.782Z"
+              "WhenOpened": "2026-02-05T18:44:54.782Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "AssistantController.cs",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Controllers\\AssistantController.cs",
               "RelativeDocumentMoniker": "TrekSavvy\\Controllers\\AssistantController.cs",
@@ -168,11 +206,12 @@
               "RelativeToolTip": "TrekSavvy\\Controllers\\AssistantController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T18:44:09.562Z"
+              "WhenOpened": "2026-02-05T18:44:09.562Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "TripController.cs",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Controllers\\TripController.cs",
               "RelativeDocumentMoniker": "TrekSavvy\\Controllers\\TripController.cs",
@@ -180,11 +219,12 @@
               "RelativeToolTip": "TrekSavvy\\Controllers\\TripController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T18:41:18.637Z"
+              "WhenOpened": "2026-02-05T18:41:18.637Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\aryan\\OneDrive\\Desktop\\TrekSavvy\\TrekSavvy\\TrekSavvy\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "TrekSavvy\\Controllers\\AuthController.cs",
@@ -192,7 +232,8 @@
               "RelativeToolTip": "TrekSavvy\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-05T18:40:48.83Z"
+              "WhenOpened": "2026-02-05T18:40:48.83Z",
+              "EditorCaption": ""
             }
           ]
         }
